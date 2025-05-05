@@ -14,7 +14,7 @@ char* readline();
 
 int main()
 {
-    char* n_endptr;
+    char* n_envbdptr;
     char* n_str = readline();
     int n = strtol(n_str, &n_endptr, 10);
 
